@@ -1,0 +1,14 @@
+{
+    "env": {
+      "node": true,
+      "browser": true,
+      "es2020": true
+    },
+    "extends": ["next", "next/core-web-vitals", "eslint:recommended", "prettier"],
+    "rules": {
+      "@next/next/no-img-element": "off",
+      "jsx-a11y/alt-text": "off",
+      "no-unused-vars": "warn",
+      "react/no-unescaped-entities": "off"
+    }
+  }
