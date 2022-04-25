@@ -9,10 +9,13 @@ const Nav = () => {
             <h1 className="font-bold text-2xl">Yuesth</h1>
           </div>
           <div className="flex items-center text-lg font-normal">
-            <div className="mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
+            <div className="mx-2 md:mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
+              <h2>About</h2>
+            </div>
+            <div className="mx-2 md:mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
               <h2>Portfolio</h2>
             </div>
-            <div className="mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
+            <div className="mx-2 md:mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
               <h2>Blog</h2>
             </div>
           </div>
