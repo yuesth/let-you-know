@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import Intro from '../components/Intro/Intro'
-import About from '../components/About/about'
+import About from '../components/About/About'
 
 export default function Home() {
   return (
