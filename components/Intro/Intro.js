@@ -3,6 +3,7 @@ import TypeAnimation from 'react-type-animation'
 import {
   BrandGithub,
   BrandInstagram,
+  BrandLinkedin,
   BrandTelegram,
   BrandTwitter,
 } from '../Icons'
@@ -37,6 +38,9 @@ const Intro = () => {
         </div>
         <div className="cursor-pointer">
           <BrandTelegram />
+        </div>
+        <div className="cursor-pointer">
+          <BrandLinkedin />
         </div>
       </div>
       {/* <h1 className="font-bold text-4xl">My Journey</h1> */}

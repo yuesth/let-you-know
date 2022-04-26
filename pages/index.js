@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import Intro from '../components/Intro/Intro'
 import About from '../components/About/About'
+import Projects from '../components/Projects/Projects'
+import Fade from 'react-reveal/Fade'
 
 export default function Home() {
   return (
@@ -15,8 +17,15 @@ export default function Home() {
 
       <Layout>
         <Nav />
-        <Intro />
-        <About />
+        <Fade top>
+          <Intro />
+        </Fade>
+        <Fade left>
+          <About />
+        </Fade>
+        <Fade left>
+          <Projects />
+        </Fade>
       </Layout>
     </>
   )

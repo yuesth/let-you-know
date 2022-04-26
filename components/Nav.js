@@ -13,7 +13,7 @@ const Nav = () => {
               <h2>About</h2>
             </div>
             <div className="mx-2 md:mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
-              <h2>Portfolio</h2>
+              <h2>Projects</h2>
             </div>
             <div className="mx-2 md:mx-4 text-gray-400 hover:text-gray-200 transition-all cursor-pointer">
               <h2>Blog</h2>
