@@ -11,20 +11,28 @@ const About = () => {
             Yues Tadrik Hafiyan
           </span>
           , and you can called me{' '}
-          <span className="font-semibold text-primary">Yues</span>. I have been
-          pasionated to develop software products for 4 years.
+          <span className="font-semibold text-primary">Yues</span>. Have been
+          pasionated to develop software products especially front-end side
+          since 5 years ago.
         </p>
         <br />
         <p>
           Currently, I concern to build develop Web 3.0 within{' '}
           <span className="font-semibold text-white">
-            Near blockchain environment
+            Near blockchain environment.
           </span>
-          , integrate front-end side using{' '}
-          <span className="font-semibold text-quaternary">
-            React JS framework
-          </span>
-          . Strong experienced in javascript and typescript.
+          {` `}
+          Also integrating with any L0 and L1 smart contract such as {` `}
+          <span className="font-semibold text-white">Cosmos</span>
+          {` `}and{` `}
+          <span className="font-semibold text-white">Substrate-based.</span>
+          {` `}
+          Used to build product using any React JS-based framework and Vue JS,
+          and experienced on React Native mobile-based app for 3 years. Mostly,
+          experienced in <span className="text-yellow-300">
+            Javascript
+          </span> and <span className="text-blue-300">Typescript</span>{' '}
+          language.
         </p>
         <br />
         <p>
@@ -34,7 +42,16 @@ const About = () => {
           for back-end side engine. Also experienced deploying and staging on
           many server platform, such as{' '}
           <span className="font-semibold text-primary">docker</span> or{' '}
-          <span className="font-semibold text-quaternary">cloud services</span>.
+          <span className="font-semibold text-quaternary">cloud services</span>
+          {` `} like AWS and GCP.
+        </p>
+        <br />
+        <p>
+          Had built a pre-learned model using CNN method for Image
+          Classification using{' '}
+          <span className="text-orange-500">Python, Keras and Tensorflow</span>
+          {` `}
+          that published on IJCIC international journal.
         </p>
       </div>
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -64,7 +81,9 @@ const About = () => {
               />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-secondary">Software Engineer</h1>
+              <h1 className="text-xl font-bold text-secondary">
+                Software Engineer
+              </h1>
               <h3 className="text-base">Mitramas Infosys Global</h3>
               <p className="text-xs">Oct 2020 - Jan 2022</p>
             </div>
