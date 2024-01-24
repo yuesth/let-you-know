@@ -19,6 +19,7 @@ const projectData = [
     name: 'Arkana GG Mobile App',
     img: ARKANA_MOBILE_PROJECT,
     link: 'https://play.google.com/store/apps/details?id=com.arkanamobileapp',
+    link2: 'https://apps.apple.com/us/app/arkana-gg/id6474111194',
     description:
       '- Arkana mobile based app on Play Store and App Store that allows users to get membership, collect points, claim missions, and redeem for giveaway.\n - Used React Native for development framework and develop within face pace iteration which from initialize until publish spent around 1 month',
   },
@@ -116,6 +117,13 @@ const Projects = () => {
                       <ExternalLink size={16} />
                     </a>
                   </div>
+                  {doc.name.includes('Mobile') && (
+                    <div className="rounded p-1 bg-gray-900 cursor-pointer hover:bg-opacity-30 transition-all">
+                      <a href={doc.link2} target={`_blank`}>
+                        <ExternalLink size={16} />
+                      </a>
+                    </div>
+                  )}
                 </div>
                 <p className="font-thin text-sm whitespace-pre-wrap">
                   {doc.description}
